@@ -3,7 +3,7 @@
 this project is a fully html, css and javascript Landing Page Front-end.
 
 
-<img src="assents/images/Banner-WebSIteApp.jpg" style="margin: 0 auto;width: 70%;height: 40%;">
+<img src="assents/images/Banner-WebSIteApp.jpg" style="margin-left: 25%;width: 50%;">
 
 #
 
