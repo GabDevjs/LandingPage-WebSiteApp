@@ -7,6 +7,8 @@ this is a simple landing page made for the dissemination of a fictitious applica
 
 <img src="assents/images/Banner-WebSIteApp.jpg" style="margin-left: 25%;width: 40%;">
 
+in addition to using the font awesome platform on the site we are using the swinperjs api
+
 #
 
 
