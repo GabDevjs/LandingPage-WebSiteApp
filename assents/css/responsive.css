@@ -1,0 +1,99 @@
+@media (max-width: 991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    header {
+        padding: 2rem 4%;
+    }
+
+    section {
+        padding: 3rem 4%;
+    }
+
+    .usage .row {
+        flex-flow: column;
+    }
+
+    .usage .row .divider {
+        display: none;
+    }
+
+    .usage .row .box-container .box {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #menu-bar {
+        display: block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--black);
+        border-top: .1rem solid #fff3;
+        padding: 1rem 2rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar.nav-toggle {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .navbar a {
+        display: block;
+        margin: 1.5rem 0;
+        padding: 1rem;
+        background: var(--gradient);
+        text-align: center;
+        border-radius: .5rem;
+    }
+
+    header .navbar a:hover {
+        color: var(--black);
+    }
+
+    .fa-times {
+        transform: rotate(180deg);
+    }
+
+    .home .container h3 {
+        font-size: 4rem;
+    }
+
+    .home .container p {
+        font-size: 1.5rem;
+    }
+
+    .about .row .container {
+        text-align: center;
+    }
+
+    .about .row .container .buttons a {
+        width: 100%;
+    }
+
+    .about .row .container .buttons a:last-child {
+        margin-left: 1rem 0;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    html {
+        font-size: 50%
+    }
+
+    .heading {
+        font-size: 3.5rem;
+    }
+
+}
